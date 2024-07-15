@@ -21,3 +21,6 @@ tab_size = 2
 line_comments = ["#"]
 block_comment = ["#[ ", " ]#"]
 
+increase_indent_pattern = "^\\s*(proc|if|else\\s+if|while|for)\\b|^\\s*()\\s*$|[(\\\\]\\s*$"
+
+
